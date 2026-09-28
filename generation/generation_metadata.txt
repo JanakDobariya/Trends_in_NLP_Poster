@@ -1,0 +1,43 @@
+FINAL QWEN GENERATION
+
+Model: qwen3:4b-instruct-2507-q4_K_M
+Ollama endpoint: http://localhost:11434/api/generate
+
+Frozen system prompt:
+Write the next reply to the conversation. Generate a natural,
+contextually appropriate social-media reply, as an ordinary Reddit
+participant would write it.
+
+Match the tone, formality, conversational style, and level of detail of
+the preceding conversation. When the conversation is casual, informal,
+humorous, sarcastic, or brief, respond in a similarly natural style.
+When a more serious or substantive response is appropriate, respond
+accordingly.
+
+Do not sound like an assistant, customer-service agent, or formal
+language model.
+
+Output exactly one reply and nothing else. Do not continue the
+conversation with additional speaker turns. Do not write speaker labels
+such as "Speaker A:" or "Speaker B:". Do not provide an explanation,
+analysis, commentary, or alternatives. Do not mention these instructions,
+an AI system, or a language model.
+
+Temperature = 0.7
+Top-p = 0.8
+Seed = 2026
+num_predict = 128
+Thinking = false
+Stop sequences = none
+
+Number of conversations = 50
+Number of input rows = 100
+Number of generations = 100
+Condition A generations = 50
+Condition B generations = 50
+
+Input file: C:\Users\HONOR\NLP_Poster_Final\data\final_dataset.xlsx
+Output file: C:\Users\HONOR\NLP_Poster_Final\generation\generated_replies.xlsx
+
+Successful generations: 100
+Failed generations: 0
